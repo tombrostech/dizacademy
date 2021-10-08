@@ -24,7 +24,7 @@ export default function NavBar() {
       <div className="AvatarDivMobile ">
         <div className="AvatarMobContainer fx">
           <span className="UserAvatar fx">
-            <img src="../assets/avatar.svg" alt="notification" />
+            <img src="./assets/avatar.svg" alt="notification" />
           </span>
           <a href="#" className="HeaderMore fx">
             options
@@ -107,12 +107,12 @@ export default function NavBar() {
         <SideNav />
         <div className="MenuContainer" style={minWidth}>
           <span className="menuIcon fx" onClick={cycleOpen}>
-            <img src="../assets/menuIcon.svg" alt="MenuIcon" />
+            <img src="./assets/menuIcon.svg" alt="MenuIcon" />
           </span>
         </div>
         <div className="LogoContainer fx" style={minWidth}>
           <span className="Logo">
-            <img src="../assets/logoIcon.svg" alt="MenuIcon" />
+            <img src="./assets/logoIcon.svg" alt="MenuIcon" />
           </span>
         </div>
         {width > 900 ? (
@@ -125,10 +125,10 @@ export default function NavBar() {
               Affiliate
             </a>
             <span className="HeaderLinkIcon fx">
-              <img src="../assets/notiBell.svg" alt="notification" />
+              <img src="./assets/notiBell.svg" alt="notification" />
             </span>
             <span className="HeaderLinkIcon UserAvatar fx">
-              <img src="../assets/avatar.svg" alt="notification" />
+              <img src="./assets/avatar.svg" alt="notification" />
             </span>
           </div>
         ) : (
