@@ -38,7 +38,7 @@ export default function Hero() {
         <div className="HeroActionContainer fx fxJustifyStart">
           <a href="#" className="SingUPBtn fx M20H">Sign Up</a>
           <a href="#" className="VideoWatch fx M20V P12">
-            <img src="/assets/Play.svg" alt="Play" />
+            <img src="assets/Play.svg" alt="Play" />
           </a>
         </div>
       </div>
