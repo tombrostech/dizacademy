@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/dizacademy/static/css/main.a9a31a4c.chunk.css",
+    "main.js": "/dizacademy/static/js/main.bc12ad83.chunk.js",
+    "main.js.map": "/dizacademy/static/js/main.bc12ad83.chunk.js.map",
+    "runtime-main.js": "/dizacademy/static/js/runtime-main.5aaaf2c1.js",
+    "runtime-main.js.map": "/dizacademy/static/js/runtime-main.5aaaf2c1.js.map",
+    "static/js/2.0547b5b8.chunk.js": "/dizacademy/static/js/2.0547b5b8.chunk.js",
+    "static/js/2.0547b5b8.chunk.js.map": "/dizacademy/static/js/2.0547b5b8.chunk.js.map",
+    "index.html": "/dizacademy/index.html",
+    "static/css/main.a9a31a4c.chunk.css.map": "/dizacademy/static/css/main.a9a31a4c.chunk.css.map",
+    "static/js/2.0547b5b8.chunk.js.LICENSE.txt": "/dizacademy/static/js/2.0547b5b8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5aaaf2c1.js",
+    "static/js/2.0547b5b8.chunk.js",
+    "static/css/main.a9a31a4c.chunk.css",
+    "static/js/main.bc12ad83.chunk.js"
+  ]
+}
