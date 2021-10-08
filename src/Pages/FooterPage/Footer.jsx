@@ -29,7 +29,7 @@ export default function Footer() {
               affiliators.
               <span
                 className="LogoStroke"
-                style={{ backgroundImage: "url(../assets/logoStrock.svg)" }}
+                style={{ backgroundImage: "url(assets/logoStrock.svg)" }}
               ></span>
             </span>
           </span>
@@ -44,7 +44,7 @@ export default function Footer() {
         </a>
       </div>
       <div className="FooterHero">
-        <img src="/assets/FooterHero.svg" alt="footerHero"/>
+        <img src="assets/FooterHero.svg" alt="footerHero"/>
       </div>
     </div>
   );

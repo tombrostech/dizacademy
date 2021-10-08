@@ -12,7 +12,7 @@ export default function StudentsWork() {
   return (
     <div className="GridContainer fx fxCol fxJustifyStart fxAlignStart M20 M50H ">
       <div className="GridContainerPointerContainer">
-        <img src="/assets/StudentWorkPointer.png"  alt="StudentWrokPointer"/>
+        <img src="assets/StudentWorkPointer.png"  alt="StudentWrokPointer"/>
       </div>
       <div className="GridHeadingContainer fx fxCol fxJustifyStart fxAlignStart M4H ">
         <h1 className="GridHeading">Some of our students work</h1>

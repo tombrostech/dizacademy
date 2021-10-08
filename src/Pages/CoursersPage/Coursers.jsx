@@ -42,14 +42,14 @@ export default function Coursers() {
       </div>
       <div className="enrollContainer fx ">
         <div className="EnrollHero fx fxSize1" >
-          <img src="/assets/EnrollHeroOne.png"  alt="EnrollHeroOne"/>
+          <img src="assets/EnrollHeroOne.png"  alt="EnrollHeroOne"/>
         </div>
         <div className="EnrollHero fx fxSize1">
           <a href="#" className="SingUPBtn fx M20H">Enroll Now </a>
         </div>
 
         <div className="EnrollHero fx fxSize1">
-          <img src="/assets/EnrollHeroTwo.png" alt="EnrollHeroTwo"/>
+          <img src="assets/EnrollHeroTwo.png" alt="EnrollHeroTwo"/>
         </div>
       </div>
     </div>
