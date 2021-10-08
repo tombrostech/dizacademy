@@ -23,7 +23,7 @@ export default function Hero() {
                 reality.
                 <span
                   className="LogoStroke"
-                  style={{ backgroundImage: "url(../assets/logoStrock.svg)" }}
+                  style={{ backgroundImage: "url(./assets/logoStrock.svg)" }}
                 ></span>
               </span>
             </span>
