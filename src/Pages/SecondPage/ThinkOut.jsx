@@ -33,7 +33,7 @@ export default function ThinkOut() {
         <div className="HeroActionContainer fx fxJustifyStart M10H">
           <a href="#" className="SingUPBtn fx M20H">Enroll Now </a>
           <a href="#" className="VideoWatch fx M20V P12">
-            <img src="./assets/Play.svg" alt="Play" />
+            <img src="assets/Play.svg" alt="Play" />
           </a>
         </div>
       </div>
