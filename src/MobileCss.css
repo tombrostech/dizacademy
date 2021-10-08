@@ -1,0 +1,244 @@
+/* mobile Css */
+
+@media only screen and (max-width: 900px) {
+  .AvatarMobContainer {
+    justify-content: flex-start;
+    padding: 6px;
+    background-color: #FF850018;
+    border: 2px solid #FF850040;
+    border-radius: 30px;
+    justify-content: space-between;
+  }
+
+  .UserAvatar {
+    width: 30px;
+    overflow: hidden;
+    padding: 4px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .HeaderMore {
+    margin-left: 8px;
+    color: #FF8500;
+    font-size: 12px;
+  }
+
+  .Logo {
+
+    width: 8rem;
+    min-width: 100px;
+    height: 70px;
+  }
+
+  .menuIcon {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .SideBarContainer {
+    display: none;
+  }
+
+  .HeroContainer {
+    flex-direction: column;
+    padding: 20px;
+
+  }
+
+  .HeroHeadingContainer {
+    top: 0;
+    width: 100%;
+    right: 0;
+  }
+
+  .HeroSectionLeft {
+    justify-content: center !important;
+
+
+  }
+
+  .HeroSectionRight {
+    display: none;
+
+
+  }
+
+  .HeroFaceContainer {
+    right: -40%;
+    top: 15%;
+    height: 80%;
+  }
+
+  .CylinderContainer {
+    top: 70%;
+    right: 70%;
+    width: 180px;
+    height: 180px !important;
+    transform: rotate(0deg);
+    opacity: .4;
+    display: none;
+  }
+
+  .HeroHeading {
+    font-size: 5vw;
+  }
+
+  .HeroContainer>div {
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .HeroHeadingHighlighter {
+    font-size: 1.2em;
+    max-width: 50%;
+  }
+
+  .HeroHeadingHighlighter>span {
+    font-size: 2.5em;
+  }
+
+  .ScrollDownIconContainer {
+    transform: rotate(0deg);
+  }
+
+  .ScrollDownContainer {
+    width: 130px;
+    height: 130px;
+    align-self: unset;
+  }
+
+  .ThinkRight {
+    top: -5%;
+    right: 0%;
+    height: 300px !important;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .ThinkLeft {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+  }
+
+  .BgTextLow {
+    position: relative;
+  }
+
+  .BgText {
+    font-size: 6em;
+    max-width: 80%;
+  }
+
+  .ThinkHeroHeadingContainer {
+    margin-top: 0%;
+  }
+
+  .ThinkSubHeadingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ThinkSubHeading {
+    text-align: center;
+  }
+
+  .CompareContainer {
+    flex-direction: column;
+    display: none;
+  }
+
+  .CompareSlider {
+    flex: 2 !important;
+    order: 1;
+  }
+  .GridItemContainer {
+    justify-content: space-around;
+  }
+  .GridItemDiv {
+    width: 250px;
+    height: 250px;
+  }
+  .ReviewSubContainer {
+    flex-direction: column;
+    padding: 0;
+  }
+  .ReviewUserContainer {
+    width: 100%;
+    flex-direction: row;
+  }
+  .Active {
+    box-shadow: 0px 0px 50px 2px #d8d8d868;
+    background-color: white;
+    /* width: 300px; */
+    opacity: 1;
+    /* transform: scale(1.2) translateX(10%); */
+    animation: active .5s forwards cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  @keyframes active {
+    from {
+      transform: scale(0) translateX(0%);
+    }
+    to {
+      transform: scale(1.1) translateX(0%);
+    }
+  }
+  .ReviewUserText {
+    width: 100%;
+    justify-content: center;
+  }
+  .floatingCard{
+    display: none;
+  }
+  .FooterHero{
+    transform: scale(.8);
+    right: -10%;
+    top: 0%;
+  }
+  .FooterBarContainer{
+    padding: 10px 40px;
+    margin: 20px 0px;
+  }
+  .FooterBarHeading>h1 {
+    max-width: 80%;
+    font-size: 20px;
+    line-height: 1.5;
+    color: white;
+  }
+  .FooterHeroHeading .HeroHeading {
+    max-width: 60%;
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .HeaderMore {
+    display: none;
+  }
+
+  .AvatarMobContainer {
+    padding: 2px;
+  }
+
+  .menuIcon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .LogoContainer {
+    margin-right: 30px;
+  }
+
+  .Logo {
+    width: 7rem;
+    height: 70px;
+  }
+}
+
+/*  ipad css */
