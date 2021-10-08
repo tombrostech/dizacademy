@@ -38,7 +38,7 @@ export default function ThinkOut() {
         </div>
       </div>
       <div className="ThinkRight">
-        <img src="assets/ThinkHero.png" alt="ThinkHero" />
+        <img src="./assets/ThinkHero.png" alt="ThinkHero" />
       </div>
     </div>
   );
